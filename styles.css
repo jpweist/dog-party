@@ -23,12 +23,14 @@ h1 span {
 }
 #logo{
   float: left;
-  width: 3%;
-  padding: .5em;
+
+  width: 6.6%;
+  padding: .69em;
   text-align: left;
 }
 .main {
-  background: url('images/park.jpg') no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+  url('images/park.jpg') no-repeat center center;
   background-size: cover;
   height: 591px;
 
@@ -38,9 +40,7 @@ header {
   background-color: #75e2e6;
   display: block;
 }
-ul {
-  width: 99%;
-}
+
 li a {
   list-style: none;
   text-align: right;
@@ -75,6 +75,12 @@ label {
   text-align: center;
 }
 
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
 footer {
   background-color: #048eaa;
   text-align: center;
@@ -86,5 +92,5 @@ footer img {
 }
 footer p {
   color: #ffffff;
-  padding: 1.5em 0 0 0;
+  padding: 1.5em 0 0 1em;
 }
