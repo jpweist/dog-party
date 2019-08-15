@@ -1,0 +1,88 @@
+* {
+  font-family: Open Sans, sans-serif;
+  /* border: 1px solid pink; */
+  padding: 0;
+  margin: 0;
+}
+body {
+  border: 1px solid black;
+}
+
+header {
+  background-image: image(src="images/park.jpg");
+  height: 3.5em;
+}
+
+h1 {
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 700;
+}
+#logo{
+  float: left;
+  width: 3%;
+  padding: .5em;
+  text-align: left;
+}
+main {
+  background: no-repeat url("images/park.jpg");
+}
+
+header {
+  background-color: #75e2e6;
+  display: block;
+}
+ul {
+  width: 99%;
+}
+li a {
+  list-style: none;
+  text-align: right;
+  display: inline;
+  color: #000000;
+  text-decoration: none;
+  text-align: right;
+}
+a {
+  display: inline;
+}
+.navigation {
+ text-align: right;
+}
+li a {
+  display: inline;
+
+}
+li {
+  list-style: none;
+  display: inline-flex;
+  padding: 1em 1em 0 0;
+}
+.roundImage {
+  border-radius: 50%;
+  border: .25em solid #048eaa;
+  width: 10em;
+}
+label {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+
+footer {
+  background-color: #048eaa;
+  text-align: center;
+  height: 15em;
+}
+footer img {
+  padding-left: 1em;
+  margin: 2.5em 0 0 0;
+}
+footer p {
+  color: #ffffff;
+  margin: 3.5em 0 0 0;
+}
