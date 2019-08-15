@@ -23,7 +23,6 @@ h1 span {
 }
 #logo{
   float: left;
-
   width: 6.6%;
   padding: .69em;
   text-align: left;
@@ -68,6 +67,8 @@ li {
   border-radius: 50%;
   border: .25em solid #048eaa;
   width: 10em;
+  display: block;
+  margin: auto;
 }
 label {
   color: #ffffff;
@@ -75,6 +76,18 @@ label {
   text-align: center;
 }
 
+.threeArticles {
+  position: relative;
+}
+.article {
+  width: 32.7%;
+  display: inline-block;
+  margin: 1em auto;
+}
+.article h2 {
+  text-align: center;
+
+}
 .clearfix:after {
     content: ' ';
     display: table;
