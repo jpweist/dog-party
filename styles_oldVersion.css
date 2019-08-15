@@ -5,10 +5,10 @@
 }
 body {
   border: 1px solid black;
-
 }
 
 header {
+  background-image: image(src="images/park.jpg");
   height: 3.5em;
 }
 
@@ -27,11 +27,8 @@ h1 span {
   padding: .5em;
   text-align: left;
 }
-.main {
-  background: url('images/park.jpg') no-repeat center center;
-  background-size: cover;
-  height: 591px;
-
+main {
+  background: no-repeat url("images/park.jpg");
 }
 
 header {
@@ -81,10 +78,10 @@ footer {
   height: 15em;
 }
 footer img {
-  padding: 1em 0 0 1em;
-  margin: 0 auto;
+  padding-left: 1em;
+  margin: 2.5em 0 0 0;
 }
 footer p {
   color: #ffffff;
-  padding: 1.5em 0 0 0;
+  margin: 3.5em 0 0 0;
 }
