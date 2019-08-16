@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   border: 1px solid black;
 }
@@ -10,26 +11,39 @@ body {
 header {
   height: 3.5em;
 }
+
 main {
   margin: auto;
+
 }
+.main-center {
+  margin: auto;
+  padding-top: 120px;
+
+}
+
 h1 {
   font-weight: 200;
   color: #ffffff;
   width: 400px;
   text-align: center;
   margin: auto;
+  padding-bottom: 20px;
 }
+
 input {
   display: block;
   margin: auto;
   width: 32.7%;
   height: 3em;
   margin-bottom: 10px;
+  padding: 0;
 }
+
 h1 span {
   font-weight: 700
 }
+
 #logo{
   float: left;
   width: 39px;
@@ -44,9 +58,8 @@ h1 span {
   height: 591px;
   margin: auto;
 }
-.main-center {
-  padding-top: 50px;
-}
+
+
 header {
   background-color: #75e2e6;
   display: block;
@@ -60,39 +73,49 @@ li a {
   text-decoration: none;
   text-align: right;
 }
+
 a {
   display: inline;
 }
+
 .navigation {
  text-align: right;
+ padding-top: 5px;
 }
+
+
 li a {
   display: inline;
 
 }
+
 li {
   list-style: none;
   display: inline-flex;
   padding: 1em 1em 0 0;
 }
+
 .roundImage {
   border-radius: 50%;
   border: .25em solid #048eaa;
   width: 10em;
   display: block;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: -36px;
 }
+
 label {
   color: #ffffff;
   display: block;
   text-align: center;
+  margin-bottom: 6px;
 }
 
 .threeArticles {
-  position: relative;
   padding: 1em;
+
 }
+
 .article {
   width: 25.7%;
   display: inline-block;
@@ -101,29 +124,32 @@ label {
   vertical-align: top;
 
 }
+
 .article h2 {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .article p {
+  margin-top: 52px;
   margin-bottom: 2em;
 }
+
 button {
   font-weight: 700;
   background-color: #75e2e6;
-  width: 32.7%;
+  width: 33%;
   height: 3em;
   display: block;
   margin: auto;
 }
+
 .dark-blue-button {
   width: 100%;
   color: #ffffff;
   background-color: #048eaa;
   margin: 10px 0 0 0;
-
-
-
+  vertical-align: bottom;
 }
 .clearfix:after {
     content: ' ';
@@ -136,10 +162,12 @@ footer {
   text-align: center;
   height: 15em;
 }
+
 footer img {
   padding: 1em 0 0 1em;
   margin: 0 auto;
 }
+
 footer p {
   color: #ffffff;
   padding: 1.5em 0 0 1em;
