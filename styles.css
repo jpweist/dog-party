@@ -36,7 +36,9 @@ li a {
 
 
 }
-
+li a:hover {
+  text-decoration: underline;
+}
 a {
   display: inline;
 }
@@ -150,13 +152,24 @@ button {
   font-size: 1.1em;
 
 }
-
+button:hover {
+  background-color: #53aaad;
+}
 .dark-blue-button {
   width: 100%;
   color: #ffffff;
   background-color: #048eaa;
   margin: 10px 0 0 0;
   vertical-align: bottom;
+}
+.button-space {
+  margin-top: 3em;
+}
+.dark-blue-button:hover {
+  background-color: #034f5f;
+}
+.hidden {
+  visibility: none;
 }
 .clearfix:after {
     content: ' ';
