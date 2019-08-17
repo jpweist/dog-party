@@ -10,38 +10,8 @@ body {
 
 header {
   height: 3.5em;
-}
-
-main {
-  margin: auto;
-
-}
-.main-center {
-  margin: auto;
-  padding-top: 120px;
-
-}
-
-h1 {
-  font-weight: 200;
-  color: #ffffff;
-  width: 400px;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 20px;
-}
-
-input {
+  background-color: #75e2e6;
   display: block;
-  margin: auto;
-  width: 32.7%;
-  height: 3em;
-  margin-bottom: 10px;
-  padding: 0;
-}
-
-h1 span {
-  font-weight: 700
 }
 
 #logo{
@@ -51,18 +21,8 @@ h1 span {
   text-align: left;
 }
 
-.main {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
-  url('images/park.jpg') no-repeat center center;
-  background-size: cover;
-  height: 591px;
-  margin: auto;
-}
-
-
-header {
-  background-color: #75e2e6;
-  display: block;
+li {
+  display: inline-flex;
 }
 
 li a {
@@ -72,6 +32,9 @@ li a {
   color: #000000;
   text-decoration: none;
   text-align: right;
+  padding: 1em 1em 0 0;
+
+
 }
 
 a {
@@ -83,16 +46,51 @@ a {
  padding-top: 5px;
 }
 
-
-li a {
-  display: inline;
+main {
+  margin: auto;
 
 }
 
-li {
-  list-style: none;
-  display: inline-flex;
-  padding: 1em 1em 0 0;
+.main {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+  url('images/park.jpg') no-repeat center center;
+  background-size: cover;
+  height: 591px;
+  margin: auto;
+}
+
+.main-center {
+  margin: auto;
+  padding-top: 101px;
+}
+
+.main-form {
+  width: 30em;
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 200;
+  color: #ffffff;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+h1 span {
+  font-weight: 700
+}
+
+input {
+  display: block;
+  margin: auto;
+  width: 99%;
+  height: 2.5em;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 1.25em;
 }
 
 .roundImage {
@@ -109,6 +107,11 @@ label {
   display: block;
   text-align: center;
   margin-bottom: 6px;
+}
+
+label.inputBox {
+  text-align: left;
+  font-size: 1.2em;
 }
 
 .threeArticles {
@@ -133,15 +136,19 @@ label {
 .article p {
   margin-top: 52px;
   margin-bottom: 2em;
+  height: 9em;
+  padding-left: .25em;
 }
 
 button {
   font-weight: 700;
   background-color: #75e2e6;
-  width: 33%;
+  width: 100%;
   height: 3em;
   display: block;
   margin: auto;
+  font-size: 1.1em;
+
 }
 
 .dark-blue-button {

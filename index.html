@@ -3,7 +3,6 @@
   <head>
       <meta charset="utf-8">
       <link rel="stylesheet" href="styles.css">
-      <script src="main.js"></script>
     <title>Dog Party</title>
   </head>
   <body>
@@ -22,9 +21,11 @@
         <h1>A Site About <span>Some Dogs</span></h1>
           <img class="roundImage" src="images/dog1-sq.jpg" alt="dog one image">
             <div class="main-center">
-              <label class="inputBox" for="dogName">Name</label>
-              <input type="text" name="name" minlength="4" maxlength="10">
-              <button type="button" name="nameThisDog">Name This Dog</button>
+              <form class="main-form" action="index.html" method="post">
+                <label class="inputBox" for="dogName">Name</label>
+                <input type="text" name="name" minlength="4" maxlength="10">
+                <button type="button" name="nameThisDog">Name This Dog</button>
+              </form>
             </div>
       </div>
     </main>
@@ -66,4 +67,5 @@
       <img src="images/linkedin.svg" alt="twitter">
     </footer>
   </body>
+  <script src="main.js"></script>
 </html>
