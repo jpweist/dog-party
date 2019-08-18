@@ -192,3 +192,33 @@ footer p {
   color: #ffffff;
   padding: 1.5em 0 0 1em;
 }
+
+@media  (max-width: 812px) {
+  .navigation {
+    text-align: right;
+    font-size: .85em;
+    padding: .5em 0 0 .25em;
+  }
+  h1 {
+    font-weight: 200;
+    color: #ffffff;
+    width: 268px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .main-center {
+    padding-top: 38px;
+  }
+  .main-form {
+    width: 16em;
+    font-size: 0.95em;
+    padding-top: 2em;
+  }
+  .article {
+    margin: auto;
+    width: 82.7%;
+    display: block;
+    vertical-align: top;
+  }
+}
