@@ -39,10 +39,13 @@ li a {
 li a:hover {
   text-decoration: underline;
 }
+
 a {
   display: inline;
 }
-
+a:hover {
+  tooltip: display;
+}
 .navigation {
  text-align: right;
  padding-top: 5px;
@@ -168,9 +171,7 @@ button:hover {
 .dark-blue-button:hover {
   background-color: #034f5f;
 }
-.hidden {
-  visibility: none;
-}
+
 .clearfix:after {
     content: ' ';
     display: table;
@@ -221,4 +222,10 @@ footer p {
     display: block;
     vertical-align: top;
   }
+}
+.hidden {
+  display: none;
+  padding-top: 2em;
+}
+.button-space {
 }
