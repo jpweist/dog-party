@@ -10,9 +10,6 @@ write well structured and semantic HTML
 craft clean and DRY CSS
 use JavaScript to interact with the DOM
 
-
-
-
 ### use these colors:
 
 Design Comp 1
@@ -23,3 +20,12 @@ Background color: #ffffff
 White text: #ffffff
 Body text: #000000
 Font: Open Sans
+
+
+# https://jpweist.github.io/dog-party/#how-to-dog
+
+![](https://github.com/jpweist/dog-party/blob/master/dog-party-gif.gif)
+
+
+
+
